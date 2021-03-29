@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ShoppingCart implements ShoppingCartInt {
+public class ShoppingCart implements ShoppingCartInterface {
     private static String fileName = "products.txt";
     private Product product;
 
